@@ -33,6 +33,7 @@ class SpacePhoto:
         self.description = deepl_client.translate_text(self.description, target_lang="UK)
         
         '''
+        return data
     def show_info(self):
         """infa pro foto"""
         print("🚀 foto dnia NASA")
